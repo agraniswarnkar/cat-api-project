@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.cat-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 5px solid #ccc;
+}
+
+.fact {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #555;
+  max-width: 60%;
+  margin: 0 auto;
+  word-wrap: break-word; 
+  padding: 10px;
+}
